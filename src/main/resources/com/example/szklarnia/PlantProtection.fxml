@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.szklarnia.PlantProtection">
+
+    <children>
+        <Label layoutX="317.0" layoutY="20.0" text="Zarządzanie opryskami">
+            <font>
+                <Font name="Calibri" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="550.0" layoutY="100.0" text="Aktualna dawka:" />
+        <Label layoutX="453.0" layoutY="140.0" text="Aktualna częstotliwość poadwania:" />
+        <Label layoutX="66.0" layoutY="100.0" text="Nowa dawka:" />
+        <Label layoutX="30.0" layoutY="140.0" text="Nowa częstotliwość:" />
+        <Label layoutX="52.0" layoutY="180.0" text="Rodzaj oprysku:" />
+        <Label layoutX="506.0" layoutY="180.0" text="Aktualny rodzaj oprysku:" />
+        <Button layoutX="700.0" layoutY="350.0" mnemonicParsing="false" text="Zapisz" />
+        <Button layoutX="620.0" layoutY="350.0" mnemonicParsing="false" text="Anuluj" />
+        <ComboBox layoutX="140.0" layoutY="177.0" prefWidth="150.0" />
+        <Spinner editable="true" layoutX="140.0" layoutY="97.0" />
+        <Spinner editable="true" layoutX="140.0" layoutY="137.0" />
+        <Label id="IdDawka" layoutX="650.0" layoutY="100.0" text="999999 mg" />
+        <Label id="IdCzęstotliwosc" layoutX="650.0" layoutY="140.0" text="999999 /godzinę" />
+        <Label id="IdRodzaj" layoutX="650.0" layoutY="180.0" text="jakiś oprysk" />
+    </children>
+
+</AnchorPane>

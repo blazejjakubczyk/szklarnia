@@ -27,12 +27,12 @@ public class HelloController {
     }
 
 
-    public void switchToSceneRegister(MouseEvent event) throws IOException {
+    public void switchToFertilizerManagement(MouseEvent event) throws IOException {
 
-        fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("RegisterScene.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("FertilizerManagement.fxml"));
+
         scene = new Scene(fxmlLoader.load());
-        scene.getStylesheets().add(getClass().getResource("stylesheet.css").toExternalForm());
+        stage.setTitle("FertilizerManagement");
         stage.setScene(scene);
         stage.show();
     }
