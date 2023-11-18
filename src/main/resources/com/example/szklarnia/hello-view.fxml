@@ -10,8 +10,8 @@
   </padding>
 
   <Label fx:id="welcomeText" text="System sterowania szklarnią " />
-  <Button onAction="#onLightButtonClick" text="Zarządzanie ośwetleniem" />
+  <Button onAction="#switchToLightManagement" text="Zarządzanie ośwetleniem" />
    <Button onAction="#switchToFertilizerManagement" text="Zarządzanie nawożeniem" />
-   <Button mnemonicParsing="false" text="Zarządzanie opryskami" />
-   <Button onAction="#onAirButtonClick" text="Zarządzanie warunkami atmosferycznymi" />
+   <Button onAction="#switchToPlantProtection" text="Zarządzanie opryskami" />
+   <Button onAction="#switchToAirManagement" text="Zarządzanie warunkami atmosferycznymi" />
 </VBox>
