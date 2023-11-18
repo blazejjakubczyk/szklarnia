@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.szklarnia.LightManagement">
+   <children>
+      <Label layoutX="307.0" layoutY="20.0" text="Zarządzanie nawożeniem">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="550.0" layoutY="100.0" text="Aktualna dawka:" />
+      <Label layoutX="453.0" layoutY="140.0" text="Aktualna częstotliwość poadwania:" />
+      <Label layoutX="40.0" layoutY="100.0" text="Nowa dawka:" />
+      <Label text="Nowa częstotliwość:" />
+   </children>
+</AnchorPane>
