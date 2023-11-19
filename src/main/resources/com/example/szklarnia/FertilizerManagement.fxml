@@ -17,8 +17,8 @@
       <Label layoutX="30.0" layoutY="140.0" text="Nowa częstotliwość:" />
       <Label layoutX="54.0" layoutY="180.0" text="Rodzaj nawozu:" />
       <Label layoutX="507.0" layoutY="180.0" text="Aktualny rodzaj nawozu:" />
-      <Button layoutX="700.0" layoutY="350.0" mnemonicParsing="false" text="Zapisz" />
-      <Button layoutX="620.0" layoutY="350.0" mnemonicParsing="false" text="Anuluj" />
+      <Button layoutX="700.0" layoutY="350.0" onAction="#save" text="Zapisz" />
+      <Button layoutX="620.0" layoutY="350.0" onAction="#cancel" text="Anuluj" />
       <ComboBox layoutX="140.0" layoutY="177.0" prefWidth="150.0" />
       <Spinner editable="true" layoutX="140.0" layoutY="97.0" />
       <Spinner editable="true" layoutX="140.0" layoutY="137.0" />
